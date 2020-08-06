@@ -892,7 +892,7 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string>F5K553405QXFHDD8C</string>
+			<string></string>
 			<key>ROM</key>
 			<data>ESIzAAAA</data>
 			<key>SpoofVendor</key>
@@ -900,9 +900,9 @@
 			<key>SystemProductName</key>
 			<string>MacPro6,1</string>
 			<key>SystemSerialNumber</key>
-			<string>F5KR12Y6F9VM</string>
+			<string></string>
 			<key>SystemUUID</key>
-			<string>517113D7-6944-4C73-9572-9C79FC5452B1</string>
+			<string></string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
