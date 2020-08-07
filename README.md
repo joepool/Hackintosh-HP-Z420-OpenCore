@@ -8,3 +8,9 @@ I will update when I can boot.
 Intel Xeon E5-1650 v2 CPU  
 Nvidia Quadro K4000 GPU   
 32GB ECC DDR3   
+
+# Troubleshooting Steps Taken.  
+
+Everything here: https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/troubleshooting.html#stuck-on-eb-log-exitbs-start     
+Everything here: https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/troubleshooting.html#stuck-on-rtc-pci-configuration-begins-previous-shutdown-hpet-hid-legacy     
+I have SSDT-EC.aml - I have tried the premade one and one i made with SSDTTime. Tried changing loads of qwerks etc, nothing worked...
