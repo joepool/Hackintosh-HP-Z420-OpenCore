@@ -12,7 +12,5 @@ Nvidia Quadro K4000 GPU
 # Issues    
 ~~`apfs_module_start:1689: load: com.apple.filefsytem.apfs, v1412.120.2, apfs-1412.120.2`~~    
 ~~`still waiting for root device`~~   
-~~I believe what is causing these issues is something to do with usb ports, i get past this message when i boot the macos installer from an internal sata hard drive. Diangnostics for this in progress now~~     
-#### Fixed!!      
-
-
+~~I believe what is causing these issues is something to do with usb ports, i get past this message when i boot the macos installer from an internal sata hard drive. Diangnostics for this in progress now~~
+#### Fixed!!
