@@ -30,6 +30,14 @@
 				<key>Enabled</key>
 				<true/>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-EC.aml</string>
+				<key>Path</key>
+				<string>SSDT-EC.aml</string>
+				<key>Enabled</key>
+				<true/>
+			</dict>
 		</array>
 		<key>Block</key>
 		<array>
@@ -887,17 +895,17 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string>F5K553405QXFHDD8C</string>
+			<string>D25304108GUFM591F</string>
 			<key>ROM</key>
 			<data>ESIzAAAA</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
-			<string>MacPro6,1</string>
+			<string>iMac14,1</string>
 			<key>SystemSerialNumber</key>
-			<string>F5KR12Y6F9VM</string>
+			<string>D25K56ZEFWJH</string>
 			<key>SystemUUID</key>
-			<string>517113D7-6944-4C73-9572-9C79FC5452B1</string>
+			<string>5E812475-C96F-420B-BDE3-6CF602F7EAC5</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
