@@ -808,7 +808,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v npci=0x2000 debug=0x100 slide=8 dart=1</string>
+				<string>-v npci=0x2000 debug=0x100 slide=8 shikigva=40</string>
 				<key>run-efi-updater</key>
 				<string>No</string>
 				<key>csr-active-config</key>
