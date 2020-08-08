@@ -22,6 +22,14 @@
 				<key>Enabled</key>
 				<true/>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-GPU-SPOOF.aml</string>
+				<key>Path</key>
+				<string>SSDT-GPU-SPOOF.aml</string>
+				<key>Enabled</key>
+				<true/>
+			</dict>
 		</array>
 		<key>Block</key>
 		<array>
@@ -563,22 +571,6 @@
 				<key>MinKernel</key>
 				<string></string>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/WhateverGreen</string>
-				<key>BundlePath</key>
-				<string>WhateverGreen.kext</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-				<key>Enabled</key>
-				<true/>
-				<key>MinKernel</key>
-				<string></string>
-				<key>ExecutablePath</key>
 				<string>Contents/MacOS/USBInjectAll</string>
 				<key>BundlePath</key>
 				<string>USBInjectAll.kext</string>
@@ -598,22 +590,6 @@
 				<string>Contents/MacOS/NullCPUPowerManagement</string>
 				<key>BundlePath</key>
 				<string>NullCPUPowerManagement.kext</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-				<key>Enabled</key>
-				<true/>
-				<key>MinKernel</key>
-				<string></string>
-				<key>ExecutablePath</key>
-				<string></string>
-				<key>BundlePath</key>
-				<string>XHCI-unsupported.kext</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -808,7 +784,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v npci=0x2000 debug=0x100 slide=8 shikigva=40</string>
+				<string>-v npci=0x2000 debug=0x100 slide=8 keepsyms=1</string>
 				<key>run-efi-updater</key>
 				<string>No</string>
 				<key>csr-active-config</key>
