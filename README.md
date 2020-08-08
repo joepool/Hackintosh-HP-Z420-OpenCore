@@ -19,7 +19,6 @@ See Error Images for full errors.
 
 # Troubleshooting Steps Taken.  
 
-Everything here: https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/troubleshooting.html#stuck-on-eb-log-exitbs-start     
 Everything here: https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/troubleshooting.html#stuck-on-rtc-pci-configuration-begins-previous-shutdown-hpet-hid-legacy     
 I have SSDT-EC.aml - I have tried the premade one and one i made with SSDTTime. Tried changing loads of qwerks etc, nothing worked...    
     
