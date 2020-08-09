@@ -347,6 +347,8 @@
 				<string>USB controller</string>
 				<key>model</key>
 				<string>C600/X79 series chipset USB2 Enhanced Host Controller #2</string>
+				<key>APPL,clock-id</key>
+				<data>AQ==</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1B,0x0)</key>
 			<dict>
@@ -648,7 +650,7 @@
 			<key>DisableIoMapper</key>
 			<true/>
 			<key>DisableRtcChecksum</key>
-			<false/>
+			<true/>
 			<key>DummyPowerManagement</key>
 			<false/>
 			<key>ExternalDiskIcons</key>
@@ -855,17 +857,17 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string>D25304108GUFM591F</string>
+			<string>F5K415609GUFHDD1M</string>
 			<key>ROM</key>
 			<data>ESIzAAAA</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
-			<string>iMac14,1</string>
+			<string>MacPro6,1</string>
 			<key>SystemSerialNumber</key>
-			<string>D25K56ZEFWJH</string>
+			<string>F5KMK5YNF9VM</string>
 			<key>SystemUUID</key>
-			<string>5E812475-C96F-420B-BDE3-6CF602F7EAC5</string>
+			<string>75330E31-702B-47A9-8B49-E38028469367</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
