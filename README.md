@@ -6,6 +6,7 @@ I will update when I can boot.
 
 # Current Progress:    
 It Boots MacOS Catalina! I havent tested everything yet, but once i have and fixed any issues, i will post a release!     
+It Boots MacOS BigSur DB4! Again, not sure if everything works yet, but i will update when I know it does.   
 
 # My System
 Intel Xeon E5-1650 v2 CPU  
