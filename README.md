@@ -14,6 +14,10 @@ Nvidia Quadro K4000 GPU
 32GB ECC DDR3   
 
 # Issues   
+Power Management.   
+Audio.    
+USB3.    
+DRM.    
 ~~Current issue i am facing - discussion on reddit: https://www.reddit.com/r/hackintosh/comments/i66pqf/clover_to_opencore_conversion_help_keep_getting/~~ **Fixed!!**     
      
 ~~`apfs_module_start:1689: load: com.apple.filefsytem.apfs, v1412.120.2, apfs-1412.120.2`~~    
