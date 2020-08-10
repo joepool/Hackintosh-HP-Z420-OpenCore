@@ -4,6 +4,9 @@ I am currently doing a conversion from Clover to OpenCore  and i have Catalina w
 This is currently not working, at the moment this repo is for me to keep track of things...   
 I will update when I can boot.  
 
+# Current Progress:    
+It Boots! I havent tested everything yet, but once i have and fixed any issues, i will post a release!     
+
 # My System
 Intel Xeon E5-1650 v2 CPU  
 Nvidia Quadro K4000 GPU   
