@@ -15,7 +15,7 @@ Nvidia Quadro K4000 GPU
 
 # Issues   
 ~~Power Management.~~ Fixed   
-Audio.    
+~~Audio.~~ Fixed    
 USB3.    
 DRM.    
 ~~Current issue i am facing - discussion on reddit: https://www.reddit.com/r/hackintosh/comments/i66pqf/clover_to_opencore_conversion_help_keep_getting/~~ **Fixed!!**     
