@@ -14,7 +14,7 @@ Nvidia Quadro K4000 GPU
 32GB ECC DDR3   
 
 # Issues   
-Power Management.   
+~~Power Management.~~ Fixed   
 Audio.    
 USB3.    
 DRM.    
