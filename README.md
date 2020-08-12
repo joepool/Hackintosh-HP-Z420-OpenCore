@@ -18,6 +18,7 @@ Nvidia Quadro K4000 GPU
 ~~Audio.~~ Fixed    
 USB3. - The Z420 uses a Texas Instruments USB 3 Controller which is unsupported in MacOS   
 DRM. - My GPU is incompatable so DRM will never work for me.   
+Internal Speaker.    
 ~~Current issue i am facing - discussion on reddit: https://www.reddit.com/r/hackintosh/comments/i66pqf/clover_to_opencore_conversion_help_keep_getting/~~ **Fixed!!**     
      
 ~~`apfs_module_start:1689: load: com.apple.filefsytem.apfs, v1412.120.2, apfs-1412.120.2`~~    
