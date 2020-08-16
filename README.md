@@ -28,4 +28,5 @@ Nvidia Quadro K4000 GPU
 USB3 - The Z420 uses a Texas Instruments USB 3 Controller which is unsupported in MacOS   
 DRM - My GPU is incompatable so DRM will never work for me   
 Proper Audio(AppleALC)/Internal Speaker. (Workaround is to use VooDooHDA)   
+Sleep doesn't work - you need to disable it inside of macOS.  
 If you have any other issues, feel free to open a GitHub issue and I will do my best to help!   
