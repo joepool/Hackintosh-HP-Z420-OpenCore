@@ -10,7 +10,7 @@ Enable Legacy ACPI CPU Tables
 ### Create USB Installer
 https://dortania.github.io/OpenCore-Install-Guide/installer-guide/ - Follow this guide to add macOS to the USB.   
 Mount the EFI Partition.   
-Copy the EFI files from this repo into your EFI partition.    
+Copy the EFI files from the release zip file into your EFI partition.    
 You will need to generate a MacPro6,1 SMBIOS using [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS).  
 You may have to edit the SSDT-GPU-SPOOF.aml if you have a different GPU. (You can most likely remove this if you have a fully supported GPU)   
 Follow [This Guide](https://dortania.github.io/Getting-Started-With-ACPI/Universal/spoof.html) to edit it. Do not change the Device ID, but you need to change the Model and PCIe Root. (Explained in the guide)  
