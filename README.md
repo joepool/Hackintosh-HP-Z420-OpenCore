@@ -25,7 +25,7 @@ Intel Xeon E5-1650 v2 CPU
 Nvidia Quadro K4000 GPU   
 32GB ECC DDR3   
 # Issues
-USB3 - The Z420 uses a Texas Instruments USB 3 Controller which is unsupported in MacOS   
+USB3 - The Z420 uses a Texas Instruments USB 3 Controller which is unsupported in MacOS - I have solved this by using [This PCIe expansion card](https://www.amazon.co.uk/gp/product/B00JEVLEFQ/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) which can fix the two front pannel USB3 ports and give two extra USB3 ports in the rear.   
 DRM - My GPU is incompatable so DRM will never work for me   
 Proper Audio(AppleALC)/Internal Speaker. (Workaround is to use VooDooHDA)   
 Sleep doesn't work - you need to disable it inside of macOS.  
