@@ -725,6 +725,8 @@
 			<integer>0</integer>
 			<key>Vault</key>
 			<string>Optional</string>
+			<key>SecureBootModel</key>
+			<string>Disabled</string>
 		</dict>
 		<key>Tools</key>
 		<array>
