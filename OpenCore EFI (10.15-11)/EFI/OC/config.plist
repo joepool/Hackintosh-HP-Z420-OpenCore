@@ -171,6 +171,58 @@
 				<key>TableSignature</key>
 				<data>RFNEVA==</data>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>XHC1 to SHCI</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>WEhDMQ==</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data>AAAAAA==</data>
+				<key>Replace</key>
+				<data>U0hDSQ==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data></data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>EHC1 to EH01</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>RUhDMQ==</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data>AAAAAA==</data>
+				<key>Replace</key>
+				<data>RUgwMQ==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data></data>
+			</dict>
 		</array>
 		<key>Quirks</key>
 		<dict>
@@ -185,7 +237,7 @@
 			<key>ResetLogoStatus</key>
 			<false/>
 		</dict>
-		<key>Block</key>
+		<key>Delete</key>
 		<array>
 			<dict>
 				<key>All</key>
@@ -302,6 +354,8 @@
 				<string>Contents/MacOS/Lilu</string>
 				<key>BundlePath</key>
 				<string>Lilu.kext</string>
+				<key>Arch</key>
+				<string>x86_64</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -318,6 +372,8 @@
 				<string>Contents/MacOS/VirtualSMC</string>
 				<key>BundlePath</key>
 				<string>VirtualSMC.kext</string>
+				<key>Arch</key>
+				<string>x86_64</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -334,6 +390,8 @@
 				<string>Contents/MacOS/VoodooTSCSync</string>
 				<key>BundlePath</key>
 				<string>VoodooTSCSync.kext</string>
+				<key>Arch</key>
+				<string>x86_64</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -350,6 +408,8 @@
 				<string>Contents/MacOS/WhateverGreen</string>
 				<key>BundlePath</key>
 				<string>WhateverGreen.kext</string>
+				<key>Arch</key>
+				<string>x86_64</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -366,6 +426,8 @@
 				<string>Contents/MacOS/IntelMausiEthernet</string>
 				<key>BundlePath</key>
 				<string>IntelMausiEthernet.kext</string>
+				<key>Arch</key>
+				<string>x86_64</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -382,6 +444,8 @@
 				<string>Contents/MacOS/NullCPUPowerManagement</string>
 				<key>BundlePath</key>
 				<string>NullCPUPowerManagement.kext</string>
+				<key>Arch</key>
+				<string>x86_64</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -398,22 +462,26 @@
 				<string>Contents/MacOS/VoodooHDA</string>
 				<key>BundlePath</key>
 				<string>VoodooHDA.kext</string>
+				<key>Arch</key>
+				<string>x86_64</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
 				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
 				<key>Enabled</key>
 				<true/>
-				<key>MinKernel</key>
+				<key>MaxKernel</key>
 				<string></string>
-				<key>ExecutablePath</key>
+				<key>MinKernel</key>
 				<string></string>
 				<key>BundlePath</key>
 				<string>USBMap.kext</string>
+				<key>ExecutablePath</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>Arch</key>
+				<string>x86_64</string>
 			</dict>
 		</array>
 		<key>Block</key>
@@ -437,6 +505,12 @@
 			<data></data>
 			<key>Cpuid1Mask</key>
 			<data></data>
+			<key>DummyPowerManagement</key>
+			<true/>
+			<key>MaxKernel</key>
+			<string></string>
+			<key>MinKernel</key>
+			<string></string>
 		</dict>
 		<key>Patch</key>
 		<array>
@@ -625,8 +699,6 @@
 			<true/>
 			<key>DisableRtcChecksum</key>
 			<false/>
-			<key>DummyPowerManagement</key>
-			<false/>
 			<key>ExternalDiskIcons</key>
 			<false/>
 			<key>IncreasePciBarSize</key>
@@ -640,7 +712,20 @@
 			<key>ThirdPartyDrives</key>
 			<false/>
 			<key>XhciPortLimit</key>
-			<false/>
+			<true/>
+		</dict>
+		<key>Force</key>
+		<array>
+			<dict/>
+		</array>
+		<key>Scheme</key>
+		<dict>
+			<key>FuzzyMatch</key>
+			<true/>
+			<key>KernelArch</key>
+			<string>x86_64</string>
+			<key>KernelCache</key>
+			<string>Auto</string>
 		</dict>
 	</dict>
 	<key>Misc</key>
@@ -669,7 +754,7 @@
 			<key>TakeoffDelay</key>
 			<integer>0</integer>
 			<key>Timeout</key>
-			<integer>5</integer>
+			<integer>3</integer>
 		</dict>
 		<key>Debug</key>
 		<dict>
@@ -895,6 +980,7 @@
 		<array>
 			<string>HfsPlusLegacy.efi</string>
 			<string>OpenRuntime.efi</string>
+			<string>OpenCanopy.efi</string>
 		</array>
 		<key>Input</key>
 		<dict>
@@ -941,6 +1027,8 @@
 			<string>BuiltinGraphics</string>
 			<key>UgaPassThrough</key>
 			<false/>
+			<key>ForceResolution</key>
+			<false/>
 		</dict>
 		<key>ProtocolOverrides</key>
 		<dict>
@@ -975,6 +1063,10 @@
 			<key>OSInfo</key>
 			<false/>
 			<key>UnicodeCollation</key>
+			<false/>
+			<key>AppleSecureBoot</key>
+			<false/>
+			<key>AppleImg4Verification</key>
 			<false/>
 		</dict>
 		<key>Quirks</key>

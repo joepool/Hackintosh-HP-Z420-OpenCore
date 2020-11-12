@@ -12,7 +12,7 @@ https://dortania.github.io/OpenCore-Install-Guide/installer-guide/ - Follow this
 Mount the EFI Partition.   
 Copy the EFI files from the release zip file into your EFI partition.    
 You will need to generate a MacPro6,1 SMBIOS using [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS).  
-You may have to edit the SSDT-GPU-SPOOF.aml if you have a different GPU. (You can most likely remove this if you have a fully supported GPU)   
+For any GPU other than the NVidia Quadro K4000 you can remove the SSDT-GPU-SPOOF.aml, unless it is natively unsupported. In this case, you will have to edit the SSDT   
 Follow [This Guide](https://dortania.github.io/Getting-Started-With-ACPI/Universal/spoof.html) to edit it. Do not change the Device ID, but you need to change the Model and PCIe Root. (Explained in the guide)  
 Boot the USB installer and install macOS.  
 ### Post Install
@@ -25,8 +25,8 @@ Intel Xeon E5-1650 v2 CPU
 Nvidia Quadro K4000 GPU   
 32GB ECC DDR3   
 # Issues
-USB3 - The Z420 uses a Texas Instruments USB 3 Controller which is unsupported in MacOS - I have solved this by using [This PCIe expansion card](https://www.amazon.co.uk/gp/product/B00JEVLEFQ/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) which can fix the two front pannel USB3 ports and give two extra USB3 ports in the rear.   
-DRM - My GPU is incompatable so DRM will never work for me   
+USB3 - The Z420 uses a Texas Instruments USB 3 Controller which is unsupported in MacOS - I have solved this by using [This PCIe expansion card](https://www.amazon.co.uk/gp/product/B00JEVLEFQ/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) which can fix the two front pannel USB3 ports and give two extra USB3 ports in the rear. The Unsupported USB 3.0 controller means that your Install USB must be connected to a USB 2.0 port. If it is connected to a USB 3.0 port you will get the error `Still waiting for root device`    
+DRM - My GPU is incompatable so DRM will never work for me, most GPU's have support, see [this page]()   
 Proper Audio(AppleALC)/Internal Speaker. (Workaround is to use VooDooHDA)   
 Sleep doesn't work - you need to disable it inside of macOS.  
 If you have any other issues, feel free to open a GitHub issue and I will do my best to help!   
