@@ -1064,7 +1064,7 @@
 			<key>UnicodeCollation</key>
 			<false/>
 			<key>AppleSecureBoot</key>
-			<false/>
+			<true/>
 			<key>AppleImg4Verification</key>
 			<false/>
 		</dict>
