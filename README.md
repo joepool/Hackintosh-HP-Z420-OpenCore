@@ -1,6 +1,6 @@
 # Hackintosh-HP-Z420-OpenCore
 ### Do not just copy this EFI and expect it to work
-Hackintosh EFI for HP Z420 Workstation Using Catalina/Big Sur Beta   
+Hackintosh EFI for HP Z420 Workstation - Tested on Catalina and Big Sur   
 # Setup
 This EFI is setup for debugging, it uses the debug version of OpenCore, and has logging/verbose enabled.   
 ### Required BIOS Settings
