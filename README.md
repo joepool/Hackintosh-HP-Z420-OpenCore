@@ -24,6 +24,11 @@ Follow any other steps you would like to complete your hackintosh.
 Intel Xeon E5-1650 v2 CPU  
 Nvidia Quadro K4000 GPU   
 32GB ECC DDR3   
+# Important when Updating to OC 0.6.6
+If you have previously installed this with OpenCore 0.6.5 or older and update to OpenCore 0.6.6, there are a few thing you will need to do. (If are are doing a fresh installation ignore this)   
+As bootstrap has been removed you will not be able to boot OC 0.6.6 without resetting your NVRAM as it will try to boot bootstap.    
+Before you first boot with 0.6.6, reset your NVRAM from the opencore boot picker(If the option doesn't show up, press the spacebar), then for the first time you will have to boot the `EFI/BOOT/BOOTx64.efi` option - after firdt boot it should be back to normal. See [this page for more info](https://dortania.github.io/OpenCore-Post-Install/multiboot/bootstrap.html#updating-bootstrap-in-0-6-6)   
+If you use OpenCanopy (Graphical boot picker) you will also have to update your Resources folder, which can be done from [here](https://github.com/acidanthera/OcBinaryData).   
 # Issues
 USB3 - The Z420 uses a Texas Instruments USB 3 Controller which is unsupported in MacOS - I have solved this by using [This PCIe expansion card](https://www.amazon.co.uk/gp/product/B00JEVLEFQ/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) which can fix the two front pannel USB3 ports and give two extra USB3 ports in the rear. The Unsupported USB 3.0 controller means that your Install USB must be connected to a USB 2.0 port. If it is connected to a USB 3.0 port you will get the error `Still waiting for root device`    
 DRM - My GPU is incompatable so DRM will never work for me, most GPU's have support, see [this page]()   
