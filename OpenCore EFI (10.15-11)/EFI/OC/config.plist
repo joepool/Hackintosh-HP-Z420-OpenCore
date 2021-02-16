@@ -239,34 +239,6 @@
 		</dict>
 		<key>Delete</key>
 		<array>
-			<dict>
-				<key>All</key>
-				<true/>
-				<key>Comment</key>
-				<string>Delete CpuPm</string>
-				<key>Enabled</key>
-				<true/>
-				<key>OemTableId</key>
-				<data>Q3B1UG0AAAA=</data>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data>U1NEVA==</data>
-			</dict>
-			<dict>
-				<key>All</key>
-				<true/>
-				<key>Comment</key>
-				<string>Delete Cpu0Ist</string>
-				<key>Enabled</key>
-				<true/>
-				<key>OemTableId</key>
-				<data>Q3B1MElzdAA=</data>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data>U1NEVA==</data>
-			</dict>
 		</array>
 	</dict>
 	<key>Booter</key>
@@ -330,7 +302,8 @@
 			<false/>
 		</dict>
 		<key>Patch</key>
-		<array/>
+		<array>
+		</array>
 	</dict>
 	<key>DeviceProperties</key>
 	<dict>
@@ -489,7 +462,8 @@
 			</dict>
 		</array>
 		<key>Block</key>
-		<array/>
+		<array>
+		</array>
 		<key>Emulate</key>
 		<dict>
 			<key>Cpuid1Data</key>
@@ -504,7 +478,8 @@
 			<string></string>
 		</dict>
 		<key>Patch</key>
-		<array/>
+		<array>
+		</array>
 		<key>Quirks</key>
 		<dict>
 			<key>AppleCpuPmCfgLock</key>
@@ -547,7 +522,8 @@
 			<integer>-1</integer>
 		</dict>
 		<key>Force</key>
-		<array/>
+		<array>
+		</array>
 		<key>Scheme</key>
 		<dict>
 			<key>FuzzyMatch</key>
@@ -561,7 +537,8 @@
 	<key>Misc</key>
 	<dict>
 		<key>BlessOverride</key>
-		<array/>
+		<array>
+		</array>
 		<key>Boot</key>
 		<dict>
 			<key>ConsoleAttributes</key>
@@ -829,7 +806,7 @@
 			<key>MinimumVolume</key>
 			<integer>20</integer>
 			<key>PlayChime</key>
-			<false/>
+			<string>Auto</string>
 			<key>VolumeAmplifier</key>
 			<integer>0</integer>
 			<key>SetupDelay</key>
@@ -947,7 +924,8 @@
 			<false/>
 		</dict>
 		<key>ReservedMemory</key>
-		<array/>
+		<array>
+		</array>
 	</dict>
 </dict>
 </plist>
