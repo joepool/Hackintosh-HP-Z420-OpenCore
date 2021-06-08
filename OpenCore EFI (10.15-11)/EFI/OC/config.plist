@@ -550,6 +550,8 @@
 			<false/>
 			<key>SetApfsTrimTimeout</key>
 			<integer>-1</integer>
+			<key>ProvideCurrentCpuInfo</key>
+			<false/>
 		</dict>
 		<key>Force</key>
 		<array>
@@ -666,6 +668,8 @@
 			<data></data>
 			<key>PasswordSalt</key>
 			<data></data>
+			<key>AllowToggleSip</key>
+			<false/>
 		</dict>
 		<key>Tools</key>
 		<array>
@@ -776,8 +780,6 @@
 		<true/>
 		<key>Generic</key>
 		<dict>
-			<key>AdviseWindows</key>
-			<false/>
 			<key>MLB</key>
 			<string></string>
 			<key>ROM</key>
@@ -796,6 +798,8 @@
 			<integer>0</integer>
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
+			<key>AdviseFeatures</key>
+			<false/>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -901,7 +905,7 @@
 			<key>ForceResolution</key>
 			<false/>
 			<key>GopPassThrough</key>
-			<false/>
+			<string>Disabled</string>
 		</dict>
 		<key>ProtocolOverrides</key>
 		<dict>
@@ -938,6 +942,8 @@
 			<key>AppleSecureBoot</key>
 			<true/>
 			<key>AppleImg4Verification</key>
+			<false/>
+			<key>AppleEg2Info</key>
 			<false/>
 		</dict>
 		<key>Quirks</key>
