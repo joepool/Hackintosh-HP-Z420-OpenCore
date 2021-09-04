@@ -20,6 +20,9 @@ https://dortania.github.io/OpenCore-Post-Install/ - Steps are outlined in this g
 Mount your drives EFI partition and copy the contents of your USB installer's EFI partition to your drives EFI Partition.   
 Convert fron the debug version of opencore to the release version, cleanup logging etc. Follow [This Guide](https://dortania.github.io/OpenCore-Post-Install/cosmetic/verbose.html#macos-decluttering).   
 Follow any other steps you would like to complete your hackintosh. 
+### Audio
+I have now managed to get Audio fully working with AppleALC. This means that audio will work on MacOS versions above 11.3.  
+Credit to @BillDH2k for finding the IRQ conflicts issue and a solution. 
 ### Important when Updating to OC 0.6.6
 If you have previously installed this with OpenCore 0.6.5 or older and update to OpenCore 0.6.6, there are a few thing you will need to do. (If are are doing a fresh installation ignore this)   
 As bootstrap has been removed you will not be able to boot OC 0.6.6 without resetting your NVRAM as it will try to boot bootstap.    
@@ -32,6 +35,5 @@ Nvidia Quadro K4000 GPU
 # Issues
 USB3 - The Z420 uses a Texas Instruments USB 3 Controller which is unsupported in MacOS - I have solved this by using [This PCIe expansion card](https://www.amazon.co.uk/gp/product/B00JEVLEFQ/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) which can fix the two front pannel USB3 ports and give two extra USB3 ports in the rear. The Unsupported USB 3.0 controller means that your Install USB must be connected to a USB 2.0 port. If it is connected to a USB 3.0 port you will get the error `Still waiting for root device`    
 DRM - My GPU is incompatable so DRM will never work for me, most GPU's have support, see [this page]()   
-Proper Audio(AppleALC)/Internal Speaker. (Workaround is to use VooDooHDA)   
 Sleep doesn't work - you need to disable it inside of macOS.  
 If you have any other issues, feel free to open a GitHub issue and I will do my best to help!   
