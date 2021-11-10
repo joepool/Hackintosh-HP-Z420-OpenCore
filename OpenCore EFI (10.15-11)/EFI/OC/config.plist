@@ -328,8 +328,7 @@
 			<false/>
 		</dict>
 		<key>Delete</key>
-		<array>
-		</array>
+		<array/>
 	</dict>
 	<key>Booter</key>
 	<dict>
@@ -392,10 +391,11 @@
 			<false/>
 			<key>ForceBooterSignature</key>
 			<false/>
+			<key>ResizeAppleGpuBars</key>
+			<integer>-1</integer>
 		</dict>
 		<key>Patch</key>
-		<array>
-		</array>
+		<array/>
 	</dict>
 	<key>DeviceProperties</key>
 	<dict>
@@ -584,8 +584,7 @@
 			</dict>
 		</array>
 		<key>Block</key>
-		<array>
-		</array>
+		<array/>
 		<key>Emulate</key>
 		<dict>
 			<key>Cpuid1Data</key>
@@ -600,8 +599,7 @@
 			<string></string>
 		</dict>
 		<key>Patch</key>
-		<array>
-		</array>
+		<array/>
 		<key>Quirks</key>
 		<dict>
 			<key>AppleCpuPmCfgLock</key>
@@ -646,8 +644,7 @@
 			<false/>
 		</dict>
 		<key>Force</key>
-		<array>
-		</array>
+		<array/>
 		<key>Scheme</key>
 		<dict>
 			<key>FuzzyMatch</key>
@@ -663,8 +660,7 @@
 	<key>Misc</key>
 	<dict>
 		<key>BlessOverride</key>
-		<array>
-		</array>
+		<array/>
 		<key>Boot</key>
 		<dict>
 			<key>ConsoleAttributes</key>
@@ -799,8 +795,6 @@
 			<dict>
 				<key>DefaultBackgroundColor</key>
 				<data>AAAAAA==</data>
-				<key>UIScale</key>
-				<data>AQ==</data>
 			</dict>
 			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
 			<dict>
@@ -954,8 +948,26 @@
 		<true/>
 		<key>Drivers</key>
 		<array>
-			<string>HfsPlusLegacy.efi</string>
-			<string>OpenRuntime.efi</string>
+			<dict>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>HfsPlusLegacy.efi</string>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string>HfsPlusLegacy.efi</string>
+			</dict>
+			<dict>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>OpenRuntime.efi</string>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string>OpenRuntime.efi</string>
+			</dict>
 		</array>
 		<key>Input</key>
 		<dict>
@@ -1068,10 +1080,13 @@
 			<false/>
 			<key>ReloadOptionRoms</key>
 			<false/>
+			<key>ResizeGpuBars</key>
+			<integer>-1</integer>
+			<key>ForceOcWriteFlash</key>
+			<false/>
 		</dict>
 		<key>ReservedMemory</key>
-		<array>
-		</array>
+		<array/>
 		<key>AppleInput</key>
 		<dict>
 			<key>AppleEvent</key>
